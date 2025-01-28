@@ -70,21 +70,21 @@ export interface ShipMount {
  * @export
  */
 export const ShipMountSymbolEnum = {
-    GasSiphonI: 'MOUNT_GAS_SIPHON_I',
-    GasSiphonIi: 'MOUNT_GAS_SIPHON_II',
-    GasSiphonIii: 'MOUNT_GAS_SIPHON_III',
-    SurveyorI: 'MOUNT_SURVEYOR_I',
-    SurveyorIi: 'MOUNT_SURVEYOR_II',
-    SurveyorIii: 'MOUNT_SURVEYOR_III',
-    SensorArrayI: 'MOUNT_SENSOR_ARRAY_I',
-    SensorArrayIi: 'MOUNT_SENSOR_ARRAY_II',
-    SensorArrayIii: 'MOUNT_SENSOR_ARRAY_III',
-    MiningLaserI: 'MOUNT_MINING_LASER_I',
-    MiningLaserIi: 'MOUNT_MINING_LASER_II',
-    MiningLaserIii: 'MOUNT_MINING_LASER_III',
-    LaserCannonI: 'MOUNT_LASER_CANNON_I',
-    MissileLauncherI: 'MOUNT_MISSILE_LAUNCHER_I',
-    TurretI: 'MOUNT_TURRET_I'
+    MountGasSiphonI: 'MOUNT_GAS_SIPHON_I',
+    MountGasSiphonIi: 'MOUNT_GAS_SIPHON_II',
+    MountGasSiphonIii: 'MOUNT_GAS_SIPHON_III',
+    MountSurveyorI: 'MOUNT_SURVEYOR_I',
+    MountSurveyorIi: 'MOUNT_SURVEYOR_II',
+    MountSurveyorIii: 'MOUNT_SURVEYOR_III',
+    MountSensorArrayI: 'MOUNT_SENSOR_ARRAY_I',
+    MountSensorArrayIi: 'MOUNT_SENSOR_ARRAY_II',
+    MountSensorArrayIii: 'MOUNT_SENSOR_ARRAY_III',
+    MountMiningLaserI: 'MOUNT_MINING_LASER_I',
+    MountMiningLaserIi: 'MOUNT_MINING_LASER_II',
+    MountMiningLaserIii: 'MOUNT_MINING_LASER_III',
+    MountLaserCannonI: 'MOUNT_LASER_CANNON_I',
+    MountMissileLauncherI: 'MOUNT_MISSILE_LAUNCHER_I',
+    MountTurretI: 'MOUNT_TURRET_I'
 } as const;
 export type ShipMountSymbolEnum = typeof ShipMountSymbolEnum[keyof typeof ShipMountSymbolEnum];
 

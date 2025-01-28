@@ -76,10 +76,10 @@ export interface ShipEngine {
  * @export
  */
 export const ShipEngineSymbolEnum = {
-    ImpulseDriveI: 'ENGINE_IMPULSE_DRIVE_I',
-    IonDriveI: 'ENGINE_ION_DRIVE_I',
-    IonDriveIi: 'ENGINE_ION_DRIVE_II',
-    HyperDriveI: 'ENGINE_HYPER_DRIVE_I'
+    EngineImpulseDriveI: 'ENGINE_IMPULSE_DRIVE_I',
+    EngineIonDriveI: 'ENGINE_ION_DRIVE_I',
+    EngineIonDriveIi: 'ENGINE_ION_DRIVE_II',
+    EngineHyperDriveI: 'ENGINE_HYPER_DRIVE_I'
 } as const;
 export type ShipEngineSymbolEnum = typeof ShipEngineSymbolEnum[keyof typeof ShipEngineSymbolEnum];
 

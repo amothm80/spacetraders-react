@@ -88,21 +88,21 @@ export interface ShipFrame {
  * @export
  */
 export const ShipFrameSymbolEnum = {
-    Probe: 'FRAME_PROBE',
-    Drone: 'FRAME_DRONE',
-    Interceptor: 'FRAME_INTERCEPTOR',
-    Racer: 'FRAME_RACER',
-    Fighter: 'FRAME_FIGHTER',
-    Frigate: 'FRAME_FRIGATE',
-    Shuttle: 'FRAME_SHUTTLE',
-    Explorer: 'FRAME_EXPLORER',
-    Miner: 'FRAME_MINER',
-    LightFreighter: 'FRAME_LIGHT_FREIGHTER',
-    HeavyFreighter: 'FRAME_HEAVY_FREIGHTER',
-    Transport: 'FRAME_TRANSPORT',
-    Destroyer: 'FRAME_DESTROYER',
-    Cruiser: 'FRAME_CRUISER',
-    Carrier: 'FRAME_CARRIER'
+    FrameProbe: 'FRAME_PROBE',
+    FrameDrone: 'FRAME_DRONE',
+    FrameInterceptor: 'FRAME_INTERCEPTOR',
+    FrameRacer: 'FRAME_RACER',
+    FrameFighter: 'FRAME_FIGHTER',
+    FrameFrigate: 'FRAME_FRIGATE',
+    FrameShuttle: 'FRAME_SHUTTLE',
+    FrameExplorer: 'FRAME_EXPLORER',
+    FrameMiner: 'FRAME_MINER',
+    FrameLightFreighter: 'FRAME_LIGHT_FREIGHTER',
+    FrameHeavyFreighter: 'FRAME_HEAVY_FREIGHTER',
+    FrameTransport: 'FRAME_TRANSPORT',
+    FrameDestroyer: 'FRAME_DESTROYER',
+    FrameCruiser: 'FRAME_CRUISER',
+    FrameCarrier: 'FRAME_CARRIER'
 } as const;
 export type ShipFrameSymbolEnum = typeof ShipFrameSymbolEnum[keyof typeof ShipFrameSymbolEnum];
 

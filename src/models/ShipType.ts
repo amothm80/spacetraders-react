@@ -18,18 +18,18 @@
  * @export
  */
 export const ShipType = {
-    Probe: 'SHIP_PROBE',
-    MiningDrone: 'SHIP_MINING_DRONE',
-    SiphonDrone: 'SHIP_SIPHON_DRONE',
-    Interceptor: 'SHIP_INTERCEPTOR',
-    LightHauler: 'SHIP_LIGHT_HAULER',
-    CommandFrigate: 'SHIP_COMMAND_FRIGATE',
-    Explorer: 'SHIP_EXPLORER',
-    HeavyFreighter: 'SHIP_HEAVY_FREIGHTER',
-    LightShuttle: 'SHIP_LIGHT_SHUTTLE',
-    OreHound: 'SHIP_ORE_HOUND',
-    RefiningFreighter: 'SHIP_REFINING_FREIGHTER',
-    Surveyor: 'SHIP_SURVEYOR'
+    ShipProbe: 'SHIP_PROBE',
+    ShipMiningDrone: 'SHIP_MINING_DRONE',
+    ShipSiphonDrone: 'SHIP_SIPHON_DRONE',
+    ShipInterceptor: 'SHIP_INTERCEPTOR',
+    ShipLightHauler: 'SHIP_LIGHT_HAULER',
+    ShipCommandFrigate: 'SHIP_COMMAND_FRIGATE',
+    ShipExplorer: 'SHIP_EXPLORER',
+    ShipHeavyFreighter: 'SHIP_HEAVY_FREIGHTER',
+    ShipLightShuttle: 'SHIP_LIGHT_SHUTTLE',
+    ShipOreHound: 'SHIP_ORE_HOUND',
+    ShipRefiningFreighter: 'SHIP_REFINING_FREIGHTER',
+    ShipSurveyor: 'SHIP_SURVEYOR'
 } as const;
 export type ShipType = typeof ShipType[keyof typeof ShipType];
 

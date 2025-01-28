@@ -67,7 +67,7 @@ export * from './GetStatus200ResponseServerResets';
 export * from './GetStatus200ResponseStats';
 export * from './GetSystem200Response';
 export * from './GetSystemWaypoints200Response';
-// export * from './GetSystemWaypointsTraitsParameter';
+export * from './GetSystemWaypointsTraitsParameter';
 export * from './GetSystems200Response';
 export * from './GetWaypoint200Response';
 export * from './InstallMount201Response';

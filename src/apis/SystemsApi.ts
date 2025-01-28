@@ -21,7 +21,7 @@ import type {
   GetShipyard200Response,
   GetSystem200Response,
   GetSystemWaypoints200Response,
-//   GetSystemWaypointsTraitsParameter,
+  GetSystemWaypointsTraitsParameter,
   GetSystems200Response,
   GetWaypoint200Response,
   SupplyConstruction201Response,
@@ -41,8 +41,8 @@ import {
     GetSystem200ResponseToJSON,
     GetSystemWaypoints200ResponseFromJSON,
     GetSystemWaypoints200ResponseToJSON,
-    // GetSystemWaypointsTraitsParameterFromJSON,
-    // GetSystemWaypointsTraitsParameterToJSON,
+    GetSystemWaypointsTraitsParameterFromJSON,
+    GetSystemWaypointsTraitsParameterToJSON,
     GetSystems200ResponseFromJSON,
     GetSystems200ResponseToJSON,
     GetWaypoint200ResponseFromJSON,
@@ -84,7 +84,7 @@ export interface GetSystemWaypointsRequest {
     page?: number;
     limit?: number;
     type?: WaypointType;
-    // traits?: GetSystemWaypointsTraitsParameter;
+    traits?: GetSystemWaypointsTraitsParameter;
 }
 
 export interface GetSystemsRequest {
