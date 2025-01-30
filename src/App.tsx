@@ -1,17 +1,20 @@
-import './App.css'
-import * as stapi from './index.ts'
-// import {AgentsApi} from './index.js'
+import "./App.css";
+import Header from "./views/Header.tsx";
+import Aside from "./views/Aside.tsx";
+import Main from "./views/Main.tsx";
+
 function App() {
-  const s = new stapi.AgentsApi()
-  console.log(s.getAgents({limit: 20, page: 2}))
+
   // const s = new AgentsApi()
-  
+
   // console.log(s.getAgents({limit: 20, page: 2}))
   return (
     <>
-hello world
+      <Header />
+      <Aside />
+      <Main />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
